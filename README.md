@@ -95,7 +95,7 @@ The word embeddings are fed to a 1D convolutional layer with a kernel size of 3 
 
 ##### LSTM Cell
 
-The output of the convolutional filters are used as input for the LSTM Cell.  ThIs is a traditional LSTM cell with the number of units set to 100, a hyperbolic tangent activation function and a hard sigmoid recurrent activation function. A GRU Cell (Chung et Al., 2015) has also been used, but this did improve the network, but only worsened.
+The output of the convolutional filters are used as input for the LSTM Cell.  ThIs is a traditional LSTM cell with the number of units set to 100, a hyperbolic tangent activation function and a hard sigmoid recurrent activation function. A GRU Cell (Chung et Al., 2015) has also been used, but this did not improve the network, but only worsened.
 
 ##### Output layer
 
